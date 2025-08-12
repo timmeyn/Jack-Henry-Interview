@@ -40,11 +40,13 @@ Where:
 - `TemperatureRating` — one of "Cold", "Moderate", or "Hot" based on temperature thresholds.
 ## Notes
 - Testing
-With more time, I would add basic unit tests and integration tests to verify functionality across edge cases and to detect changes to the NWS API specification early.
+
+	With more time, I would add basic unit tests and integration tests to verify functionality across edge cases and to detect changes to the NWS API specification early.
 
 - Production Considerations
-In a production environment, I would:
-	- Utilize more fields from the NWS API response.
-	- Create a dedicated API client wrapper for cleaner and more maintainable requests.
-	- Add proper logging, metrics, and error tracking.
-	- Configure request timeouts and retry logic for robustness.
+
+	In a production environment, I would:
+		- Utilize more fields from the NWS API response.
+		- Create a dedicated API client wrapper for cleaner and more maintainable requests.
+		- Add proper logging, metrics, and error tracking.
+		- Configure request timeouts and retry logic for robustness.
